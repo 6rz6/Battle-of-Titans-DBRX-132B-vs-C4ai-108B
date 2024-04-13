@@ -66,7 +66,7 @@ Both tools are also designed with flexibility and customization in mind, allowin
 
 
 
->>>>>>>>>>>>>>>>>>>>>>>>>     Total answers combined ~51,700 char length in 20 min. Not bad.  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>     Total answers combined ~51,700 char length in 20 min. Not bad.  
 
 Below is the full conversation, (i'm seriously developing it, and the updates of httpx and Ollama with the SSL and the PKs disrupted the 
 whole work flow until the versions will stablize a bit.
@@ -94,7 +94,8 @@ them which i pre engineered to start the main task of creating a k8s cluster wit
 since i had basically mostly technical issues (75% or more) and just slight of behavioral issus such as putting a sleep(5sec) timer if they 
 need to wait and not listing to me to do 
 it with an AsyncClient and that i forbid them to sleep on the job (thats why i have the real time monitor, to wake them up mostly and push them
-to action while i optimize their prompts and make them write notes to remember what is the plan (since the token window end fast, they must write in base64 reminders to themselfs in files) - why base64? its the same for them as reading english but less tokens of I/O. 
+to action while i optimize their prompts and make them write notes to remember what is the plan (since the token window end fast, they must write in 
+**base64 reminders to themselfs in files) - why base64? its the same for them as reading english but less tokens of I/O. **
 
 Give me an observers opinion on the project, its always great to get feedback on my projects, and most important Suggest how can you help? 
 are you able for exmaple to write a perfect code from 0 to hero of the first aiSIM assigned as the 'manager' with an objective to populate 
@@ -108,18 +109,18 @@ syntax to not use SSL hit a brick wall with the REMOTE ollama server which the a
 what do you suggest? how can you assist solving the issue of constant updates to open source code which breaks (seriously breaks - exit on kernel runtime errors).
 should each be forced to anchor themselves to a venv or conda? i can deal with LLMs its harder to deal with freshly baked buggy open source releases. 
 
-the stage is yours :)
+**the stage is yours :)**
 
 -----------------------------------------108B c4ai-command-r-plus Model Desc and Specs --------------------------------------------------------
 
-C4AI Command R+ is a research open weights release of a 104B billion parameter with highly advanced Retrieval Augmented 
-Generation (RAG) capabilities, tool Use to automate sophisticated tasks, and is multilingual in 10 languages: English, 
-French, Spanish, Italian, German, Portuguese, Japanese, Korean, Arabic, and Chinese. Command R+ is optimized for a variety 
-of use cases including reasoning, summarization, and question answering.
-
-Model: c4ai-command-r-plus
-Developed by: Cohere and Cohere for AI
-License: CC-BY-NC, requires also adhering to C4AI's Acceptable Use Policy
+	C4AI Command R+ is a research open weights release of a 104B billion parameter with highly advanced Retrieval Augmented 
+	Generation (RAG) capabilities, tool Use to automate sophisticated tasks, and is multilingual in 10 languages: English, 
+	French, Spanish, Italian, German, Portuguese, Japanese, Korean, Arabic, and Chinese. Command R+ is optimized for a variety 
+	of use cases including reasoning, summarization, and question answering.
+	
+	Model: c4ai-command-r-plus
+	Developed by: Cohere and Cohere for AI
+	License: CC-BY-NC, requires also adhering to C4AI's Acceptable Use Policy
 
 **-------------------------------------My description of the project to C4ai in detail to evaluate if he has a loss of content 'in the middle' or lazyness ------------------------------------------**
 
