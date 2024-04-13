@@ -22,12 +22,6 @@ for summarizing and analyzing large amounts of data in a very short time, with l
 suitable for writing and working with large amounts of text where quantity has higher priority than quality. 
 amazing for research and summarization & Translation.
 
-<div width="70%">
-	
-    ![image](https://github.com/6rz6/Battle-of-Titans-DBRX-132B-vs-C4ai-108B/assets/102882394/1583421f-9e4d-4193-b7cb-c649a37e3c44)
-
-</div>
-
 The task I comapred them with was a fraction of the original task i've tested C4ai with, due to the smaller 32k output context window of DBRX, but never the less, 
 the answer it gave with a lot less information was far more accurate compared to the 50,000 character C4ai output in less than 10 minutes (!)
 
