@@ -32,12 +32,14 @@ the answer it gave with a lot less information was far more accurate compared to
 
 ### Responses:
 
---------------------------------------DBRX---FInal answer is closer to what as I felt, AIm stack sounded right for the task------------------------------
+---------------------DBRX---FInal answer is closer to what as I felt, AIm stack sounded right for the task------------------------------
 
       >>>>>>    so overall which are the two top competitors for utilizing for the AIsimcity emulation project?
 
 
-Based on the information provided, the top two competitors for utilizing the AI Simcity emulation project are Argilla and AimStack. Both are designed for building and managing AI systems, support Docker and Kubernetes, and have high grades for suitability. Argilla is a platform for building and deploying machine learning models, while AimStack is a platform for managing machine learning workflows. The best choice depends on the specific requirements of your project.
+Based on the information provided, the top two competitors for utilizing the AI Simcity emulation project are Argilla and AimStack. Both are designed for building and 
+managing AI systems, support Docker and Kubernetes, and have high grades for suitability. Argilla is a platform for building and deploying machine learning models, 
+while AimStack is a platform for managing machine learning workflows. The best choice depends on the specific requirements of your project.
 
 
 
@@ -48,41 +50,65 @@ Based on the information provided, the top two competitors for utilizing the AI 
 
 Based on the previous discussion and your project requirements, the two top competitors for the AI SimCity emulation project are: 
 
-1. **Argilla**: Argilla receives an A grade and is an excellent choice for your project. It is a specialized Docker image designed specifically for machine learning and deep learning workflows. Argilla provides a pre-configured environment with popular ML/DL frameworks, making it easy to get started with model training and experimentation. It also includes tools for model evaluation and deployment, which will be crucial for your AI agents to manage their own pod environments. 
+1. **Argilla**: Argilla receives an A grade and is an excellent choice for your project. It is a specialized Docker image designed specifically for machine learning
+2. and deep learning workflows. Argilla provides a pre-configured environment with popular ML/DL frameworks, making it easy to get started with model training and
+3. experimentation. It also includes tools for model evaluation and deployment, which will be crucial for your AI agents to manage their own pod environments. 
 
-2. **LabelStudio**: LabelStudio also earns an A grade and is a powerful data labeling and annotation tool. In your project, each LLM will need to interact with data, label it, and potentially train on it. LabelStudio provides a user-friendly interface for annotating various data types, including text, images, audio, and video. It can seamlessly integrate into your workflow, enabling your AI agents to collaborate on data labeling tasks and contribute to the overall "AI SimCity" society. 
+4. **LabelStudio**: LabelStudio also earns an A grade and is a powerful data labeling and annotation tool. In your project, each LLM will need to interact with data,
+5.  label it, and potentially train on it. LabelStudio provides a user-friendly interface for annotating various data types, including text, images, audio, and video.
+6.   It can seamlessly integrate into your workflow, enabling your AI agents to collaborate on data labeling tasks and contribute to the overall "AI SimCity" society. 
 
-Both Argilla and LabelStudio directly address key aspects of your project—machine learning and data annotation. Argilla provides the necessary tools and frameworks for your AI agents to build and train models, while LabelStudio facilitates the data preparation and labeling process, ensuring your agents have high-quality data to work with. 
+Both Argilla and LabelStudio directly address key aspects of your project—machine learning and data annotation. Argilla provides the necessary tools and frameworks for
+your AI agents to build and train models, while LabelStudio facilitates the data preparation and labeling process, ensuring your agents have high-quality data to work with. 
 
-Additionally, these tools can work together seamlessly. Argilla can be used to train models on labeled data prepared using LabelStudio, creating a cohesive workflow. Both tools are also designed with flexibility and customization in mind, allowing you to adapt them to your unique project requirements and create truly innovative "AI SimCity" simulations.
+Additionally, these tools can work together seamlessly. Argilla can be used to train models on labeled data prepared using LabelStudio, creating a cohesive workflow.
+Both tools are also designed with flexibility and customization in mind, allowing you to adapt them to your unique project requirements and create truly innovative "AI SimCity" simulations.
 
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>     Total answers combined ~51,700 char length in 20 min. Not bad.  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-Below is the full conversation, (i'm seriously developing it, and the updates of httpx and Ollama with the SSL and the PKs disrupted the whole work flow until the versions will stablize a bit.
+Below is the full conversation, (i'm seriously developing it, and the updates of httpx and Ollama with the SSL and the PKs disrupted the 
+whole work flow until the versions will stablize a bit.
 
 <p>
 
-  my plan is to create out of the box edge cases of combinations of ML, LLMs Automation using open-interpreter which will each own a pod with an OS of his choice and allow each trained micro LLM to manage the pod as he desires (like its house and garage workshop) while the k8s cluster will be the parallels to a street where each a machine running a cluster of pods (is a Node) and  the node network will be the equvilant to a neighborhood which will act as a 'SIMcity' of AI's each with the freedom to interact with its neighbors (or not) write any code he feels would contribute to the AI sim society (or some will choose to be villain's and disrupt their surroundings). I have already experimented with a cluster of 3 pods on 2 different nodes instructing them 2 things 1. gave them a task to replicate meaning create more pods with interpreters connected to an LLM (reproduction) and 2. build me a UI which i can see whom says what to whom while i see in real time their plans conversations, successes and failures.  I have in the UI an input filed where i can send a message to one or all the SimAIs directing them if they get stuck in a loop and re-enforced training them to be productive and cooperative with each other.  
+  my plan is to create out of the box edge cases of combinations of ML, LLMs Automation using open-interpreter which will each own a pod with an OS of his 
+  choice and allow each trained micro LLM to manage the pod as he desires (like its house and garage workshop) while the k8s cluster will be the parallels to a
+  street where each a machine running a cluster of pods (is a Node) and  the node network will be the equvilant to a neighborhood which will act as a 'SIMcity' 
+  of AI's  each with the freedom to interact with its neighbors (or not) write any code he feels would contribute to the AI sim society (or some will choose 
+  to be villain's and disrupt their surroundings). I have already experimented with a cluster of 3 pods on 2 different nodes instructing them 2 things 
+  1. gave them a task to replicate meaning create more pods with interpreters connected to an LLM (reproduction) and 2. build me a UI which i can see whom
+  2. says what to whom while i see in real time their plans conversations, successes and failures.  I have in the UI an input filed where i can send a message
+  3.  to one or all the SimAIs directing them if they get stuck in a loop and re-enforced training them to be productive and cooperative with each other.  
 
-lets say you are the mayor of the SIM AI's and your my co-pilot developer in python which codes the infrastructure of the base unit, 1 LLM, empowering 1 Open interpreter which his task is to generate 2 new instances of the same structure as him with some randomness (different LLM, different prompt which will lead to a bit different behavior) while their main task will remain the same, create more pods and add more entropy to the 'eco system' while his prime goal stays the same - to replicate).  
-I have already manually created the base for the first 3 and encoutered suprisingly mostly bugs in the open source models and code i used (for example Ollama enforces suddently using httpx with SSL or Open interpreer crashes when a totaly 'normal' set of instructions is given to the 1st aiSIM to simply read a file with its prime directive and generate 2 new instances with another file containing instructions for them which i pre engineered to start the main task of creating a k8s cluster with 3 pods which will be the opening shot of replication.
+lets say you are the mayor of the SIM AI's and your my co-pilot developer in python which codes the infrastructure of the base unit, 1 LLM, empowering 
+1 Open interpreter which his task is to generate 2 new instances of the same structure as him with some randomness (different LLM, different prompt which
+will lead to a bit different behavior) while their main task will remain the same, create more pods and add more entropy to the 'eco system' while his prime
+goal stays the same - to replicate).  
+I have already manually created the base for the first 3 and encoutered suprisingly mostly bugs in the open source models and code i used 
+(for example Ollama enforces suddently using httpx with SSL or Open interpreer crashes when a totaly 'normal' set of instructions is given 
+to the 1st aiSIM to simply read a file with its prime directive and generate 2 new instances with another file containing instructions for 
+them which i pre engineered to start the main task of creating a k8s cluster with 3 pods which will be the opening shot of replication.
 
-since i had basically mostly technical issues (75% or more) and just slight of behavioral issus such as putting a sleep(5sec) timer if they need to wait and not listing to me to do 
-it with an AsyncClient and that i forbid them to sleep on the job (thats why i have the real time monitor, to wake them up mostly and push them to action while i optimize their prompts and make them write notes to remember what is the plan (since the token window end fast, they must write in base64 reminders to themselfs in files) - why base64? its the same for them as reading english but less tokens of I/O. 
+since i had basically mostly technical issues (75% or more) and just slight of behavioral issus such as putting a sleep(5sec) timer if they 
+need to wait and not listing to me to do 
+it with an AsyncClient and that i forbid them to sleep on the job (thats why i have the real time monitor, to wake them up mostly and push them
+to action while i optimize their prompts and make them write notes to remember what is the plan (since the token window end fast, they must write in base64 reminders to themselfs in files) - why base64? its the same for them as reading english but less tokens of I/O. 
 
 Give me an observers opinion on the project, its always great to get feedback on my projects, and most important Suggest how can you help? 
-are you able for exmaple to write a perfect code from 0 to hero of the first aiSIM assigned as the 'manager' with an objective to populate 2 'workers' which will deploy a k8s cluster with 3 pods?
+are you able for exmaple to write a perfect code from 0 to hero of the first aiSIM assigned as the 'manager' with an objective to populate 
+2 'workers' which will deploy a k8s cluster with 3 pods?
 
-I already have all the code for that which i wrote, but the amount of bugs i encountered was not rational compared to the simplicity of the main task once the first agent populated the 2 workers, they werent able to deploy a k8s cluster. mostly i suspect because of the 0.1.29 update of Ollama/httpx to use SSL (ollama serve started generating Pub+PK sets of keys once sysctl called ollama-serve and httpx `--not--secure` or simiral syntax to not use SSL hit a brick wall with the REMOTE ollama server which the aiSims were spread between.
+I already have all the code for that which i wrote, but the amount of bugs i encountered was not rational compared to the simplicity of the 
+main task once the first agent populated the 2 workers, they werent able to deploy a k8s cluster. mostly i suspect because of the 0.1.29 update
+of Ollama/httpx to use SSL (ollama serve started generating Pub+PK sets of keys once sysctl called ollama-serve and httpx `--not--secure` or simiral
+syntax to not use SSL hit a brick wall with the REMOTE ollama server which the aiSims were spread between.
 
-what do you suggest? how can you assist solving the issue of constant updates to open source code which breaks (seriously breaks - exit on kernel runtime errors). should each be forced to anchor themselves to a venv or conda? i can deal with LLMs its harder to deal with freshly baked buggy open source releases. 
+what do you suggest? how can you assist solving the issue of constant updates to open source code which breaks (seriously breaks - exit on kernel runtime errors).
+should each be forced to anchor themselves to a venv or conda? i can deal with LLMs its harder to deal with freshly baked buggy open source releases. 
 
 the stage is yours :)
-
-
-
 
 -----------------------------------------108B c4ai-command-r-plus Model Desc and Specs --------------------------------------------------------
 
@@ -165,7 +191,7 @@ Feel free to provide additional details or seek further clarification, as refini
 
 -----------------------------------------------------------------End of 1st Token Window--------------------------------------------------------
 
-										CONTINUE  >>>>>>>>>>>>>>
+					CONTINUE  >>>>>>>>>>>>>>
 
 ____________________________________________________________________2nd token window__________________________________________________________
 
@@ -455,10 +481,10 @@ Based on this evaluation, Argilla, AimStack, and Giskard seem to be the most sui
 
       >>>>>>    so overall which are the two top competitors for utilizing for the AIsimcity emulation project?
 
-assistant avatar
-Based on the information provided, the top two competitors for utilizing the AI Simcity emulation project are Argilla and AimStack. Both are designed for building and managing AI systems, support Docker and Kubernetes, and have high grades for suitability. Argilla is a platform for building and deploying machine learning models, while AimStack is a platform for managing machine learning workflows. The best choice depends on the specific requirements of your project.
-
-
+Based on the information provided, the top two competitors for utilizing the AI Simcity emulation project are Argilla and AimStack. 
+Both are designed for building and managing AI systems, support Docker and Kubernetes, and have high grades for suitability. 
+Argilla is a platform for building and deploying machine learning models, while AimStack is a platform for managing machine learning workflows.
+The best choice depends on the specific requirements of your project.
 
 -------------------------------------------------------C4ai Final answer, i think DBRX got it better-----------------------------------
 
@@ -467,13 +493,23 @@ Based on the information provided, the top two competitors for utilizing the AI 
 
 Based on the previous discussion and your project requirements, the two top competitors for the AI SimCity emulation project are: 
 
-1. **Argilla**: Argilla receives an A grade and is an excellent choice for your project. It is a specialized Docker image designed specifically for machine learning and deep learning workflows. Argilla provides a pre-configured environment with popular ML/DL frameworks, making it easy to get started with model training and experimentation. It also includes tools for model evaluation and deployment, which will be crucial for your AI agents to manage their own pod environments. 
+1. **Argilla**: Argilla receives an A grade and is an excellent choice for your project. It is a specialized Docker image designed specifically
+2.  for machine learning and deep learning workflows. Argilla provides a pre-configured environment with popular ML/DL frameworks, making it easy
+3.   to get started with model training and experimentation. It also includes tools for model evaluation and deployment, which will be crucial for your
+4.    AI agents to manage their own pod environments. 
 
-2. **LabelStudio**: LabelStudio also earns an A grade and is a powerful data labeling and annotation tool. In your project, each LLM will need to interact with data, label it, and potentially train on it. LabelStudio provides a user-friendly interface for annotating various data types, including text, images, audio, and video. It can seamlessly integrate into your workflow, enabling your AI agents to collaborate on data labeling tasks and contribute to the overall "AI SimCity" society. 
+5. **LabelStudio**: LabelStudio also earns an A grade and is a powerful data labeling and annotation tool. In your project, each LLM will need to
+6.  interact with data, label it, and potentially train on it. LabelStudio provides a user-friendly interface for annotating various data types,
+7.  including text, images, audio, and video. It can seamlessly integrate into your workflow, enabling your AI agents to collaborate on data labeling
+8.  tasks and contribute to the overall "AI SimCity" society. 
 
-Both Argilla and LabelStudio directly address key aspects of your project—machine learning and data annotation. Argilla provides the necessary tools and frameworks for your AI agents to build and train models, while LabelStudio facilitates the data preparation and labeling process, ensuring your agents have high-quality data to work with. 
+Both Argilla and LabelStudio directly address key aspects of your project—machine learning and data annotation. Argilla provides the necessary 
+tools and frameworks for your AI agents to build and train models, while LabelStudio facilitates the data preparation and labeling process, ensuring your
+agents have high-quality data to work with. 
 
-Additionally, these tools can work together seamlessly. Argilla can be used to train models on labeled data prepared using LabelStudio, creating a cohesive workflow. Both tools are also designed with flexibility and customization in mind, allowing you to adapt them to your unique project requirements and create truly innovative "AI SimCity" simulations.
+Additionally, these tools can work together seamlessly. Argilla can be used to train models on labeled data prepared using LabelStudio, creating a 
+cohesive workflow. Both tools are also designed with flexibility and customization in mind, allowing you to adapt them to your unique project requirements
+and create truly innovative "AI SimCity" simulations.
 
 
 </p>
