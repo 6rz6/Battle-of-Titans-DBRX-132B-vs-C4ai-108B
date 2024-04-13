@@ -1,6 +1,6 @@
 ## Huge Battle of Titans DBRX 132B ⚔ C4ai-108B - [Collection page](https://huggingface.co/collections/AI6rz/132b-dbrx-instruct-5-x-7b-36b-output-vs-c4ai-104b-output-661aa042a12a10bd0d6e003e)
 
-#### [DBRX](https://huggingface.co/databricks/dbrx-instruct) 132B (MOE) 5x7B-Instruct-36B is Fast Accurate and extremely suitable for complex tasks with low margin for error. 
+#### [DBRXinstruct](https://huggingface.co/databricks/dbrx-instruct) 132B (MOE) 5x7B-Instruct-36B is Fast Accurate and extremely suitable for complex tasks with low margin for error. 
 
 
 Best use cases IMO are fast decision making situations like automated driving where a split of a second or any mistake can cost dearly
@@ -8,7 +8,7 @@ and an accurate swift resoponse would be the game changer.
 
 <div width="70%">
 
-  ### [image](https://github.com/6rz6/Battle-of-Titans-DBRX-132B-vs-C4ai-108B/assets/102882394/805c9758-6661-4035-bde8-3fe47b0ca06f)
+  ### [DBRX](https://github.com/6rz6/Battle-of-Titans-DBRX-132B-vs-C4ai-108B/assets/102882394/805c9758-6661-4035-bde8-3fe47b0ca06f)
 
 </div>
 
