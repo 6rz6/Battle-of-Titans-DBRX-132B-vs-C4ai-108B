@@ -11,8 +11,10 @@ amazing for research and summarization & Translation.
 
 <div width="70%>
 
-![image](https://github.com/6rz6/Battle-of-Titans-DBRX-132B-vs-C4ai-108B/assets/102882394/1583421f-9e4d-4193-b7cb-c649a37e3c44)   ![image](https://github.com/6rz6/Battle-of-Titans-DBRX-132B-vs-C4ai-108B/assets/102882394/805c9758-6661-4035-bde8-3fe47b0ca06f)
-<div width="70%>
+![image](https://github.com/6rz6/Battle-of-Titans-DBRX-132B-vs-C4ai-108B/assets/102882394/1583421f-9e4d-4193-b7cb-c649a37e3c44)   
+![image](https://github.com/6rz6/Battle-of-Titans-DBRX-132B-vs-C4ai-108B/assets/102882394/805c9758-6661-4035-bde8-3fe47b0ca06f)
+
+</div>
 
 
 The task I comapred them with was a fraction of the original task i've tested C4ai with, due to the smaller 32k output context window of DBRX, but never the less, 
