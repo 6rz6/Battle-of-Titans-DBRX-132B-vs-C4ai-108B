@@ -283,7 +283,7 @@ on which docker image would you recommend / guestimate the deployment and ofocur
 Jupyterlab,Argilla, Livebook, LabelStudio, AimStack, AutoTrain, Shiny (R), Shiny (python), ZenML, ChatUI, Panel, Giskard, and Quarto.
 by the names only AimStack and Shiny pytnon sound good to me but i will need a brief explenation on each one and its pros and cons.
 
-------------------------------------------------My Request for an infrastructure recommendation -----------------------------------------
+**-----------------------------------My Request for an infrastructure recommendation -----------------------------------**
 
 
 Based on your project requirements and the emphasis on stability, rapid development, and performance, I would recommend considering the following Docker images as potential candidates for deployment and development:
@@ -321,17 +321,19 @@ Feel free to provide more specific details or requirements to refine the recomme
 
 
 Sounds good, its a very broad response but nevertheless its not a simple Entropy simulation. Lets start with a base:
-on which docker image would you recommend / guestimate the deployment and ofocurse the development would be the easiest based on the Thesis we want to deploy (min bugs, max stability, rapid coding and with emphasis on performance both our the aiSims and of us the developers of the infrastructure?) the option are these:
-
+on which docker image would you recommend / guestimate the deployment and ofocurse the development would be the easiest based on the Thesis we want to deploy (min bugs, max stability,
+rapid coding and with emphasis on performance both our the aiSims and of us the developers of the infrastructure?) the option are these:
 
 Jupyterlab,Argilla, Livebook, LabelStudio, AimStack, AutoTrain, Shiny (R), Shiny (python), ZenML, ChatUI, Panel, Giskard, and Quarto.
 by the names only AimStack and Shiny pytnon sound good to me but i will need a brief explenation on each one and its pros and cons.
 
-break down in a structures list with 1. brief explenation on each infrastructure from the above.
-2. do not diviate from the list above, these are the only options so lets go ever each and write a description, pros for the task, cons for the task and your overoll grading from 1-10 of how much it suits our spesific needs to build a AIsimcity?
--
+break down in a structures list with: 
+1. brief explenation on each infrastructure from the above.
+2. do not diviate from the list above, these are the only options so lets go ever each and write a description, pros for the task,
+cons for the task and your overoll grading from 1-10 of how much it suits our spesific needs to build a AIsimcity?
 
-----------------------------------------Cleared chat and repeataed the last stage of inquery------------------------------------------
+
+**----------------------------------------Cleared chat and repeataed the last stage of inquery------------------------------------------**
 
 
 [reminder]This is the summary of the project we are working on:
