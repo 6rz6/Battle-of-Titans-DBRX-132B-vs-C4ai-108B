@@ -94,7 +94,8 @@ whole work flow until the versions will stablize a bit.
 
 <p>
 
-  my plan is to create out of the box edge cases of combinations of ML, LLMs Automation using open-interpreter which will each own a pod with an OS of his 
+  ```
+my plan is to create out of the box edge cases of combinations of ML, LLMs Automation using open-interpreter which will each own a pod with an OS of his 
   choice and allow each trained micro LLM to manage the pod as he desires (like its house and garage workshop) while the k8s cluster will be the parallels to a
   street where each a machine running a cluster of pods (is a Node) and  the node network will be the equvilant to a neighborhood which will act as a 'SIMcity' 
   of AI's  each with the freedom to interact with its neighbors (or not) write any code he feels would contribute to the AI sim society (or some will choose 
@@ -131,6 +132,7 @@ what do you suggest? how can you assist solving the issue of constant updates to
 should each be forced to anchor themselves to a venv or conda? i can deal with LLMs its harder to deal with freshly baked buggy open source releases. 
 
 **the stage is yours :)**
+```
 
 -----------------------------------------108B c4ai-command-r-plus Model Desc and Specs --------------------------------------------------------
 
