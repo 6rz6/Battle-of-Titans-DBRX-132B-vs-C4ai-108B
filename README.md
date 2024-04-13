@@ -9,6 +9,7 @@ suitable for summarizing and analyzing large amounts of data in a very short tim
 suitable for writing and working with large amounts of text where quantity has higher priority than quality. 
 amazing for research and summarization & Translation.
 
+The task I comapred them with was a fraction of the original task i've tested C4ai with, due to the smaller 32k output context window of DBRX, but never the less, the answer it gave with a lot less information was far more accurate compared to the 50,000 character C4ai output in less than 10 minutes (!)
 
 ```
   [reminder]This is the summary of the project we are working on:
@@ -21,3 +22,4 @@ amazing for research and summarization & Translation.
   [task]Think of me as a student with zero knowledge beyond Docker and Linux as base ---->> List each of the following docker images describe it and grade it according to how much it overall suits the project[/task]  
   [options]Jupyterlab,Argilla, Livebook, LabelStudio, AimStack, AutoTrain, Shiny (R), Shiny (python), ZenML, ChatUI, Panel, Giskard, and Quarto.[/options]
 ```
+
