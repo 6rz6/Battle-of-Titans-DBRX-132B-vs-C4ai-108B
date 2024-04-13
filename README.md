@@ -7,7 +7,7 @@
 Best use cases IMO are fast decision making situations like automated driving where a split of a second or any mistake can cost dearly
 and an accurate swift resoponse would be the game changer.
 
-![C4ai-r-Plus](https://huggingface.co/CohereForAI/c4ai-command-r-plus) is a fast 108B Endless token output  has the largest output context window i've encountered,suitable 
+#### [C4ai-r-Plus](https://huggingface.co/CohereForAI/c4ai-command-r-plus) is a fast 108B Endless token output  has the largest output context window i've encountered,suitable 
 
 
 ![image](https://github.com/6rz6/Battle-of-Titans-DBRX-132B-vs-C4ai-108B/assets/102882394/2f466a4c-6846-4fb5-9abd-92dc414a31fe)
