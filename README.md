@@ -14,9 +14,7 @@ and an accurate swift resoponse would be the game changer.
 </div>
 
 	
-####  [C4ai-r-Plus](https://huggingface.co/CohereForAI/c4ai-command-r-plus) is a fast 108B Endless token output  has the largest output
-
-context window i've encountered, suitable for summarizing and analyzing large amounts of data in a very short time, with low resource demands. 
+####  [C4ai-r-Plus](https://huggingface.co/CohereForAI/c4ai-command-r-plus) is a fast 108B Endless token output  has the largest output context window i've encountered,suitable for summarizing and analyzing large amounts of data in a very short time, with low resource demands. 
 suitable for writing and working with large amounts of text where quantity has higher priority than quality. 
 amazing for research and summarization & Translation.
 <div width="70%>
