@@ -7,7 +7,7 @@
 Best use cases IMO are fast decision making situations like automated driving where a split of a second or any mistake can cost dearly
 and an accurate swift resoponse would be the game changer.
 
-<div width="70%
+<div width="70%">
 
 ![image](https://github.com/6rz6/Battle-of-Titans-DBRX-132B-vs-C4ai-108B/assets/102882394/805c9758-6661-4035-bde8-3fe47b0ca06f)
 
@@ -17,7 +17,7 @@ and an accurate swift resoponse would be the game changer.
 ####  [C4ai-r-Plus](https://huggingface.co/CohereForAI/c4ai-command-r-plus) is a fast 108B Endless token output  has the largest output context window i've encountered,suitable for summarizing and analyzing large amounts of data in a very short time, with low resource demands. 
 suitable for writing and working with large amounts of text where quantity has higher priority than quality. 
 amazing for research and summarization & Translation.
-<div width="70%>
+<div width="70%">
 	
 ![image](https://github.com/6rz6/Battle-of-Titans-DBRX-132B-vs-C4ai-108B/assets/102882394/1583421f-9e4d-4193-b7cb-c649a37e3c44)
 
