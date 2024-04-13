@@ -65,8 +65,7 @@ Additionally, these tools can work together seamlessly. Argilla can be used to t
 Both tools are also designed with flexibility and customization in mind, allowing you to adapt them to your unique project requirements and create truly innovative "AI SimCity" simulations.
 
 
-
->>>>>>>>>>>>>>>>>>>>>>>>>     Total answers combined ~51,700 char length in 20 min. Not bad.  
+###  Total answers combined ~51,700 char length in 20 min. Not bad.  
 
 Below is the full conversation, (i'm seriously developing it, and the updates of httpx and Ollama with the SSL and the PKs disrupted the 
 whole work flow until the versions will stablize a bit.
