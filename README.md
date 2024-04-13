@@ -84,7 +84,7 @@ Both tools are also designed with flexibility and customization in mind, allowin
 ###  Total answers combined ~51,700 char length in 20 min. Not bad.  
 
 Below is the full conversation, (i'm seriously developing it, and the updates of httpx and Ollama with the SSL and the PKs disrupted the 
-whole work flow until the versions will stablize a bit.
+whole work flow until the versions will stablize a bit.) FYI Jefry @ollama
 
 **-------------My description of the project to C4ai in detail to evaluate if he has a loss of content 'in the middle' or lazyness --------------**
 
