@@ -92,6 +92,8 @@ Both tools are also designed with flexibility and customization in mind, allowin
 Below is the full conversation, (i'm seriously developing it, and the updates of httpx and Ollama with the SSL and the PKs disrupted the 
 whole work flow until the versions will stablize a bit.
 
+**-------------My description of the project to C4ai in detail to evaluate if he has a loss of content 'in the middle' or lazyness --------------**
+
 <p>
 
   ```
@@ -145,31 +147,13 @@ should each be forced to anchor themselves to a venv or conda? i can deal with L
 	Developed by: Cohere and Cohere for AI
 	License: CC-BY-NC, requires also adhering to C4AI's Acceptable Use Policy
 
-**-------------My description of the project to C4ai in detail to evaluate if he has a loss of content 'in the middle' or lazyness --------------**
-
-my plan is to create out of the box edge cases of combinations of ML, LLMs Automation using open-interpreter which will each own a pod with an OS of his choice and allow each trained micro LLM to manage the pod as he desires (like its house and garage workshop) while the k8s cluster will be the parallels to a street where each a machine running a cluster of pods (is a Node) and the node network will be the equvilant to a neighborhood which will act as a 'SIMcity' of AI's each with the freedom to interact with its neighbors (or not) write any code he feels would contribute to the AI sim society (or some will choose to be villain's and disrupt their surroundings). I have already experimented with a cluster of 3 pods on 2 different nodes instructing them 2 things 1. gave them a task to replicate meaning create more pods with interpreters connected to an LLM (reproduction) and 2. build me a UI which i can see whom says what to whom while i see in real time their plans conversations, successes and failures. I have in the UI an input filed where i can send a message to one or all the SimAIs directing them if they get stuck in a loop and re-enforced training them to be productive and cooperative with each other.
-lets say you are the mayor of the SIM AI's and your my co-pilot developer in python which codes the infrastructure of the base unit, 1 LLM, empowering 1 Open interpreter which his task is to generate 2 new instances of the same structure as him with some randomness (different LLM, different prompt which will lead to a bit different behavior) while their main task will remain the same, create more pods and add more entropy to the 'eco system' while his prime goal stays the same - to replicate).
-I have already manually created the base for the first 3 and encoutered suprisingly mostly bugs in the open source models and code i used (for example Ollama enforces suddently using httpx with SSL or Open interpreer crashes when a totaly 'normal' set of instructions is given to the 1st aiSIM to simply read a file with its prime directive and generate 2 new instances with another file containing instructions for them which i pre engineered to start the main task of creating a k8s cluster with 3 pods which will be the opening shot of replication.
-
-since i had basically mostly technical issues (75% or more) and just slight of behavioral issus such as putting a sleep(5sec) timer if they need to wait and not listing to me to do
-it with an AsyncClient and that i forbid them to sleep on the job (thats why i have the real time monitor, to wake them up mostly and push them to action while i optimize their prompts and make them write notes to remember what is the plan (since the token window end fast, they must write in base64 reminders to themselfs in files) - why base64? its the same for them as reading english but less tokens of I/O.
-
-Give me an observers opinion on the project, its always great to get feedback on my projects, and most important Suggest how can you help?
-are you able for exmaple to write a perfect code from 0 to hero of the first aiSIM assigned as the 'manager' with an objective to populate 2 'workers' which will deploy a k8s cluster with 3 pods?
-
-I already have all the code for that which i wrote, but the amount of bugs i encountered was not rational compared to the simplicity of the main task once the first agent populated the 2 workers, they werent able to deploy a k8s cluster. mostly i suspect because of the 0.1.29 update of Ollama/httpx to use SSL (ollama serve started generating Pub+PK sets of keys once sysctl called ollama-serve and httpx --not--secure or simiral syntax to not use SSL hit a brick wall with the REMOTE ollama server which the aiSims were spread between.
-
-what do you suggest? how can you assist solving the issue of constant updates to open source code which breaks (seriously breaks - exit on kernel runtime errors). should each be forced to anchor themselves to a venv or conda? i can deal with LLMs its harder to deal with freshly baked buggy open source releases.
-
-the stage is yours :)
-
-
 
 ----------------------------------------C4ai Answer 1st context window-------------------------------------------------------
 
 As an AI language model, I can provide an objective observer's perspective on your project and offer suggestions to assist you in achieving your goals.
 
-First of all, your project is an ambitious and innovative approach to combining ML, LLMs, and automation within a Kubernetes (K8s) cluster ecosystem. The concept of treating each pod as an individual "house" for an LLM, with the ability to interact and replicate, is a unique take on distributed AI systems.
+First of all, your project is an ambitious and innovative approach to combining ML, LLMs, and automation within a Kubernetes (K8s) cluster ecosystem. 
+The concept of treating each pod as an individual "house" for an LLM, with the ability to interact and replicate, is a unique take on distributed AI systems.
 
 However, from your description, it seems that you are facing several challenges, primarily technical issues arising from open-source software updates and compatibility problems. Here are some suggestions to address these concerns and move your project forward:
 
