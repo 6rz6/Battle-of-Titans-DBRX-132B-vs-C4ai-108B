@@ -11,12 +11,13 @@ and an accurate swift resoponse would be the game changer.
 
 #### [image](https://github.com/6rz6/Battle-of-Titans-DBRX-132B-vs-C4ai-108B/assets/102882394/805c9758-6661-4035-bde8-3fe47b0ca06f)
 
-
 </div>
 
+<div width="70%">
 	
 ####  [C4ai-r-Plus](https://huggingface.co/CohereForAI/c4ai-command-r-plus) is a fast 108B Endless token output  has the largest output context window i've encountered,suitable 
 
+ 
 
 for summarizing and analyzing large amounts of data in a very short time, with low resource demands. 
 suitable for writing and working with large amounts of text where quantity has higher priority than quality. 
