@@ -2,18 +2,16 @@
 
 #### [DBRXinstruct](https://huggingface.co/databricks/dbrx-instruct) 132B (MOE) 5x7B-Instruct-36B is Fast Accurate and extremely suitable for complex tasks with low margin for error. 
 
+![DBRX](https://github.com/6rz6/Battle-of-Titans-DBRX-132B-vs-C4ai-108B/assets/102882394/805c9758-6661-4035-bde8-3fe47b0ca06f)
 
 Best use cases IMO are fast decision making situations like automated driving where a split of a second or any mistake can cost dearly
 and an accurate swift resoponse would be the game changer.
 
-<div width="50%">
-	
-  ![DBRX](https://github.com/6rz6/Battle-of-Titans-DBRX-132B-vs-C4ai-108B/assets/102882394/805c9758-6661-4035-bde8-3fe47b0ca06f)
+![C4ai-r-Plus](https://huggingface.co/CohereForAI/c4ai-command-r-plus) is a fast 108B Endless token output  has the largest output context window i've encountered,suitable 
 
 
-  ![C4ai-r-Plus](https://huggingface.co/CohereForAI/c4ai-command-r-plus) is a fast 108B Endless token output  has the largest output context window i've encountered,suitable 
+![image](https://github.com/6rz6/Battle-of-Titans-DBRX-132B-vs-C4ai-108B/assets/102882394/2f466a4c-6846-4fb5-9abd-92dc414a31fe)
 
-</div>
 
 for summarizing and analyzing large amounts of data in a very short time, with low resource demands. 
 suitable for writing and working with large amounts of text where quantity has higher priority than quality. 
