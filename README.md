@@ -1,10 +1,10 @@
-# Battle-of-Titans-DBRX-132B-vs-C4ai-108B - [Collection page](https://huggingface.co/collections/AI6rz/132b-dbrx-instruct-5-x-7b-36b-output-vs-c4ai-104b-output-661aa042a12a10bd0d6e003e)
+## Battle of Titans DBRX 132B ⚔ C4ai-108B - [Collection page](https://huggingface.co/collections/AI6rz/132b-dbrx-instruct-5-x-7b-36b-output-vs-c4ai-104b-output-661aa042a12a10bd0d6e003e)
 
-### Huge [DBRX](https://huggingface.co/databricks/dbrx-instruct) 132B (MOE) 5x7B-Instruct-36B ⚔ C4ai r-Plus 108B LLM Comparison Fast Accurate and extremely suitable for complex tasks with low margin for error. 
+#### Huge [DBRX](https://huggingface.co/databricks/dbrx-instruct) 132B (MOE) 5x7B-Instruct-36B is Fast Accurate and extremely suitable for complex tasks with low margin for error. 
 Best use cases IMO are fast decision making situations like automated driving where a split of a second or any mistake can cost dearly
 and an accurate swift resoponse would be the game changer.
 
-### Endless token output [C4ai-r-Plus](https://huggingface.co/CohereForAI/c4ai-command-r-plus) has the largest output context window i've encountered, suitable for summarizing and analyzing large amounts of data in a very short time, with low resource demands. suitable for writing and working with large amounts of text where quantity has higher priority than quality. amazing for research and summarization & Translation.
+####  [C4ai-r-Plus](https://huggingface.co/CohereForAI/c4ai-command-r-plus) is a fast 108B Endless token output  has the largest output context window i've encountered, suitable for summarizing and analyzing large amounts of data in a very short time, with low resource demands. suitable for writing and working with large amounts of text where quantity has higher priority than quality. amazing for research and summarization & Translation.
 
 
 ```
